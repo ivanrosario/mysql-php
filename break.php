@@ -1,6 +1,6 @@
 <?php
 try{
-$db  = new PDO("mysql:dbname=iRosario_Challenges;host=localhost", 'r2hstudent','SbFaGzNgGIE8kfP' );
+$db  = new PDO('mysql:dbname=iRosario_Challenges;host=localhost', 'r2hstudent','SbFaGzNgGIE8kfP' );
 } catch(Exception $e){
   echo "unable to connect";
   exit;
